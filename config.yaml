@@ -4,10 +4,20 @@ allow-lan: false
 mode: Rule
 log-level: info
 proxies:
-- name: 香港01
+- name: 香港15
   type: ss
   server: cn01.efan8867801.xyz
-  port: 8751
+  port: 8715
+  cipher: rc4-md5
+  password: efanccyun
+  plugin: obfs
+  plugin-opts:
+    mode: http
+    host: 202503131222137-I1Qlb2V1Rh.download.microsoft.com
+- name: 香港20
+  type: ss
+  server: cn01.efan8867801.xyz
+  port: 8720
   cipher: rc4-md5
   password: efanccyun
   plugin: obfs
@@ -18,26 +28,6 @@ proxies:
   type: ss
   server: cn01.efan8867801.xyz
   port: 8756
-  cipher: rc4-md5
-  password: efanccyun
-  plugin: obfs
-  plugin-opts:
-    mode: http
-    host: 202503131222137-I1Qlb2V1Rh.download.microsoft.com
-- name: 香港19
-  type: ss
-  server: cn01.efan8867801.xyz
-  port: 8719
-  cipher: rc4-md5
-  password: efanccyun
-  plugin: obfs
-  plugin-opts:
-    mode: http
-    host: 202503131222137-I1Qlb2V1Rh.download.microsoft.com
-- name: 香港04
-  type: ss
-  server: cn01.efan8867801.xyz
-  port: 8754
   cipher: rc4-md5
   password: efanccyun
   plugin: obfs
@@ -64,20 +54,20 @@ proxies:
   plugin-opts:
     mode: http
     host: 202503131222137-I1Qlb2V1Rh.download.microsoft.com
-- name: 台湾01
+- name: 台湾05
   type: ss
   server: cn01.efan8867801.xyz
-  port: 8741
+  port: 8745
   cipher: rc4-md5
   password: efanccyun
   plugin: obfs
   plugin-opts:
     mode: http
     host: 202503131222137-I1Qlb2V1Rh.download.microsoft.com
-- name: 台湾07
+- name: 台湾04
   type: ss
   server: cn01.efan8867801.xyz
-  port: 8747
+  port: 8744
   cipher: rc4-md5
   password: efanccyun
   plugin: obfs
@@ -94,30 +84,20 @@ proxies:
   plugin-opts:
     mode: http
     host: 202503131222137-I1Qlb2V1Rh.download.microsoft.com
-- name: 美国05
+- name: 台湾02
   type: ss
   server: cn01.efan8867801.xyz
-  port: 8775
+  port: 8742
   cipher: rc4-md5
   password: efanccyun
   plugin: obfs
   plugin-opts:
     mode: http
     host: 202503131222137-I1Qlb2V1Rh.download.microsoft.com
-- name: 美国01
+- name: 台湾01
   type: ss
   server: cn01.efan8867801.xyz
-  port: 8771
-  cipher: rc4-md5
-  password: efanccyun
-  plugin: obfs
-  plugin-opts:
-    mode: http
-    host: 202503131222137-I1Qlb2V1Rh.download.microsoft.com
-- name: 美国06
-  type: ss
-  server: cn01.efan8867801.xyz
-  port: 8776
+  port: 8741
   cipher: rc4-md5
   password: efanccyun
   plugin: obfs
@@ -144,10 +124,30 @@ proxies:
   plugin-opts:
     mode: http
     host: 202503131222137-I1Qlb2V1Rh.download.microsoft.com
-- name: 美国02
+- name: 美国07
   type: ss
   server: cn01.efan8867801.xyz
-  port: 8772
+  port: 8777
+  cipher: rc4-md5
+  password: efanccyun
+  plugin: obfs
+  plugin-opts:
+    mode: http
+    host: 202503131222137-I1Qlb2V1Rh.download.microsoft.com
+- name: 美国05
+  type: ss
+  server: cn01.efan8867801.xyz
+  port: 8775
+  cipher: rc4-md5
+  password: efanccyun
+  plugin: obfs
+  plugin-opts:
+    mode: http
+    host: 202503131222137-I1Qlb2V1Rh.download.microsoft.com
+- name: 美国01
+  type: ss
+  server: cn01.efan8867801.xyz
+  port: 8771
   cipher: rc4-md5
   password: efanccyun
   plugin: obfs
@@ -164,36 +164,6 @@ proxies:
   plugin-opts:
     mode: http
     host: 202503131222137-I1Qlb2V1Rh.download.microsoft.com
-- name: 日本06
-  type: ss
-  server: cn01.efan8867801.xyz
-  port: 8766
-  cipher: rc4-md5
-  password: efanccyun
-  plugin: obfs
-  plugin-opts:
-    mode: http
-    host: 202503131222137-I1Qlb2V1Rh.download.microsoft.com
-- name: 日本01
-  type: ss
-  server: cn01.efan8867801.xyz
-  port: 8761
-  cipher: rc4-md5
-  password: efanccyun
-  plugin: obfs
-  plugin-opts:
-    mode: http
-    host: 202503131222137-I1Qlb2V1Rh.download.microsoft.com
-- name: 日本02
-  type: ss
-  server: cn01.efan8867801.xyz
-  port: 8762
-  cipher: rc4-md5
-  password: efanccyun
-  plugin: obfs
-  plugin-opts:
-    mode: http
-    host: 202503131222137-I1Qlb2V1Rh.download.microsoft.com
 - name: 日本04
   type: ss
   server: cn01.efan8867801.xyz
@@ -204,10 +174,20 @@ proxies:
   plugin-opts:
     mode: http
     host: 202503131222137-I1Qlb2V1Rh.download.microsoft.com
-- name: 日本05
+- name: 日本09
   type: ss
   server: cn01.efan8867801.xyz
-  port: 8765
+  port: 8769
+  cipher: rc4-md5
+  password: efanccyun
+  plugin: obfs
+  plugin-opts:
+    mode: http
+    host: 202503131222137-I1Qlb2V1Rh.download.microsoft.com
+- name: 日本06
+  type: ss
+  server: cn01.efan8867801.xyz
+  port: 8766
   cipher: rc4-md5
   password: efanccyun
   plugin: obfs
@@ -224,20 +204,20 @@ proxies:
   plugin-opts:
     mode: http
     host: 202503131222137-I1Qlb2V1Rh.download.microsoft.com
-- name: 新加坡01
+- name: 日本02
   type: ss
   server: cn01.efan8867801.xyz
-  port: 8721
+  port: 8762
   cipher: rc4-md5
   password: efanccyun
   plugin: obfs
   plugin-opts:
     mode: http
     host: 202503131222137-I1Qlb2V1Rh.download.microsoft.com
-- name: 新加坡08
+- name: 日本01
   type: ss
   server: cn01.efan8867801.xyz
-  port: 8728
+  port: 8761
   cipher: rc4-md5
   password: efanccyun
   plugin: obfs
@@ -254,10 +234,20 @@ proxies:
   plugin-opts:
     mode: http
     host: 202503131222137-I1Qlb2V1Rh.download.microsoft.com
-- name: 澳大利亚02
+- name: 新加坡01
   type: ss
   server: cn01.efan8867801.xyz
-  port: 8800
+  port: 8721
+  cipher: rc4-md5
+  password: efanccyun
+  plugin: obfs
+  plugin-opts:
+    mode: http
+    host: 202503131222137-I1Qlb2V1Rh.download.microsoft.com
+- name: 新加坡09
+  type: ss
+  server: cn01.efan8867801.xyz
+  port: 8729
   cipher: rc4-md5
   password: efanccyun
   plugin: obfs
@@ -274,10 +264,10 @@ proxies:
   plugin-opts:
     mode: http
     host: 202503131222137-I1Qlb2V1Rh.download.microsoft.com
-- name: 巴西01
+- name: 澳大利亚02
   type: ss
   server: cn01.efan8867801.xyz
-  port: 8647
+  port: 8800
   cipher: rc4-md5
   password: efanccyun
   plugin: obfs
@@ -288,6 +278,16 @@ proxies:
   type: ss
   server: cn01.efan8867801.xyz
   port: 8648
+  cipher: rc4-md5
+  password: efanccyun
+  plugin: obfs
+  plugin-opts:
+    mode: http
+    host: 202503131222137-I1Qlb2V1Rh.download.microsoft.com
+- name: 巴西01
+  type: ss
+  server: cn01.efan8867801.xyz
+  port: 8647
   cipher: rc4-md5
   password: efanccyun
   plugin: obfs
@@ -314,20 +314,30 @@ proxies:
   plugin-opts:
     mode: http
     host: 202503131222137-I1Qlb2V1Rh.download.microsoft.com
-- name: 瑞士02
+- name: 捷克01
   type: ss
   server: cn01.efan8867801.xyz
-  port: 8732
+  port: 8615
   cipher: rc4-md5
   password: efanccyun
   plugin: obfs
   plugin-opts:
     mode: http
     host: 202503131222137-I1Qlb2V1Rh.download.microsoft.com
-- name: 捷克01
+- name: 捷克02
   type: ss
   server: cn01.efan8867801.xyz
-  port: 8615
+  port: 8616
+  cipher: rc4-md5
+  password: efanccyun
+  plugin: obfs
+  plugin-opts:
+    mode: http
+    host: 202503131222137-I1Qlb2V1Rh.download.microsoft.com
+- name: 德国02
+  type: ss
+  server: cn01.efan8867801.xyz
+  port: 8796
   cipher: rc4-md5
   password: efanccyun
   plugin: obfs
@@ -354,10 +364,30 @@ proxies:
   plugin-opts:
     mode: http
     host: 202503131222137-I1Qlb2V1Rh.download.microsoft.com
-- name: 法国01
+- name: 西班牙01
   type: ss
   server: cn01.efan8867801.xyz
-  port: 8783
+  port: 8797
+  cipher: rc4-md5
+  password: efanccyun
+  plugin: obfs
+  plugin-opts:
+    mode: http
+    host: 202503131222137-I1Qlb2V1Rh.download.microsoft.com
+- name: 法国02
+  type: ss
+  server: cn01.efan8867801.xyz
+  port: 8784
+  cipher: rc4-md5
+  password: efanccyun
+  plugin: obfs
+  plugin-opts:
+    mode: http
+    host: 202503131222137-I1Qlb2V1Rh.download.microsoft.com
+- name: 希腊02
+  type: ss
+  server: cn01.efan8867801.xyz
+  port: 8734
   cipher: rc4-md5
   password: efanccyun
   plugin: obfs
@@ -374,16 +404,6 @@ proxies:
   plugin-opts:
     mode: http
     host: 202503131222137-I1Qlb2V1Rh.download.microsoft.com
-- name: 匈牙利02
-  type: ss
-  server: cn01.efan8867801.xyz
-  port: 8618
-  cipher: rc4-md5
-  password: efanccyun
-  plugin: obfs
-  plugin-opts:
-    mode: http
-    host: 202503131222137-I1Qlb2V1Rh.download.microsoft.com
 - name: 匈牙利01
   type: ss
   server: cn01.efan8867801.xyz
@@ -394,20 +414,20 @@ proxies:
   plugin-opts:
     mode: http
     host: 202503131222137-I1Qlb2V1Rh.download.microsoft.com
-- name: 意大利01
+- name: 匈牙利02
   type: ss
   server: cn01.efan8867801.xyz
-  port: 8735
+  port: 8618
   cipher: rc4-md5
   password: efanccyun
   plugin: obfs
   plugin-opts:
     mode: http
     host: 202503131222137-I1Qlb2V1Rh.download.microsoft.com
-- name: 荷兰01
+- name: 意大利02
   type: ss
   server: cn01.efan8867801.xyz
-  port: 8791
+  port: 8736
   cipher: rc4-md5
   password: efanccyun
   plugin: obfs
@@ -424,10 +444,10 @@ proxies:
   plugin-opts:
     mode: http
     host: 202503131222137-I1Qlb2V1Rh.download.microsoft.com
-- name: 波兰01
+- name: 波兰02
   type: ss
   server: cn01.efan8867801.xyz
-  port: 8631
+  port: 8632
   cipher: rc4-md5
   password: efanccyun
   plugin: obfs
@@ -444,40 +464,10 @@ proxies:
   plugin-opts:
     mode: http
     host: 202503131222137-I1Qlb2V1Rh.download.microsoft.com
-- name: 葡萄牙02
-  type: ss
-  server: cn01.efan8867801.xyz
-  port: 8622
-  cipher: rc4-md5
-  password: efanccyun
-  plugin: obfs
-  plugin-opts:
-    mode: http
-    host: 202503131222137-I1Qlb2V1Rh.download.microsoft.com
 - name: 俄罗斯02
   type: ss
   server: cn01.efan8867801.xyz
   port: 8638
-  cipher: rc4-md5
-  password: efanccyun
-  plugin: obfs
-  plugin-opts:
-    mode: http
-    host: 202503131222137-I1Qlb2V1Rh.download.microsoft.com
-- name: 俄罗斯01
-  type: ss
-  server: cn01.efan8867801.xyz
-  port: 8637
-  cipher: rc4-md5
-  password: efanccyun
-  plugin: obfs
-  plugin-opts:
-    mode: http
-    host: 202503131222137-I1Qlb2V1Rh.download.microsoft.com
-- name: 土耳其02
-  type: ss
-  server: cn01.efan8867801.xyz
-  port: 8789
   cipher: rc4-md5
   password: efanccyun
   plugin: obfs
@@ -511,54 +501,53 @@ proxy-groups:
   interval: 300
   proxies:
   - DIRECT
-  - 香港01
+  - 香港15
+  - 香港20
   - 香港06
-  - 香港19
-  - 香港04
   - 香港03
   - 香港02
-  - 台湾01
-  - 台湾07
+  - 台湾05
+  - 台湾04
   - 台湾03
-  - 美国05
-  - 美国01
-  - 美国06
+  - 台湾02
+  - 台湾01
   - 美国04
   - 美国03
-  - 美国02
+  - 美国07
+  - 美国05
+  - 美国01
   - 日本03
-  - 日本06
-  - 日本01
-  - 日本02
   - 日本04
-  - 日本05
+  - 日本09
+  - 日本06
   - 日本07
-  - 新加坡01
-  - 新加坡08
+  - 日本02
+  - 日本01
   - 新加坡03
-  - 澳大利亚02
+  - 新加坡01
+  - 新加坡09
   - 澳大利亚01
-  - 巴西01
+  - 澳大利亚02
   - 巴西02
+  - 巴西01
   - 加拿大02
   - 瑞士01
-  - 瑞士02
   - 捷克01
+  - 捷克02
+  - 德国02
   - 德国01
   - 西班牙02
-  - 法国01
+  - 西班牙01
+  - 法国02
+  - 希腊02
   - 希腊01
-  - 匈牙利02
   - 匈牙利01
-  - 意大利01
-  - 荷兰01
+  - 匈牙利02
+  - 意大利02
   - 荷兰02
-  - 波兰01
+  - 波兰02
   - 葡萄牙01
-  - 葡萄牙02
   - 俄罗斯02
-  - 俄罗斯01
-  - 土耳其02
   - 土耳其01
   - 英国02
 rules:
