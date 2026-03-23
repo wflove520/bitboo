@@ -2,7 +2,7 @@ name: Auto Update Nodes
 
 on:
   schedule:
-    - cron: '0 22 * * *'
+    - cron: '0 */2 * * *'
   workflow_dispatch: # 允许你手动点击运行
 
 jobs:
